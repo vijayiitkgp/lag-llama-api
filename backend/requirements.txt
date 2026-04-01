@@ -1,0 +1,12 @@
+fastapi==0.110.0
+uvicorn==0.29.0
+
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.11.4
+
+torch==2.2.2 --index-url https://download.pytorch.org/whl/cpu
+gluonts[torch]==0.14.3
+
+tqdm
+huggingface_hub[cli]
